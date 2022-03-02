@@ -19,7 +19,7 @@ void	printrows2(t_mapdata mp, t_imgdata id)
 
 	i = 0;
 	j = 0;
-	while (i < mp.meta.size -1)
+	while (i < mp.meta.size - 1)
 	{
 		ft_drawlineimg(id, mp.points[i], mp.points[i + 1]);
 		i++;

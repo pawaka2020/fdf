@@ -41,7 +41,7 @@ void	ft_parsevalues(char **file, int *i, int *res)
 		else if (**file == '-')
 		{
 			if (*i != 0)
-					*res = *res * 0;
+				*res = *res * 0;
 			else
 				*i = 1;
 		}
