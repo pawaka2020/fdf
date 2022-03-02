@@ -14,16 +14,22 @@
 # define FDF_H
 
 # include <mlx.h>
+
 //for exit(0) allowing termination of program
 # include <stdlib.h>
+
 /*for write()*/
 # include <unistd.h>
+
 /*for O_RDLY to be used together with write()*/
 # include <fcntl.h>
+
 /*for malloc() and free()*/
 # include <stdlib.h>
+
 /*for trigonometry calculations*/
 # include <math.h>
+
 /*other required functions*/
 # include "mylibft/mylibft.h"
 
